@@ -1,18 +1,18 @@
 <template>
-    <div class="flex drop-shadow-lg card mx-5 my-3">
+    <div class="flex drop-shadow-lg card mx-5 my-3 bg-white-light px-2">
         <div class="px-2">
             <div class="img-size-container">
                 <img :src="image" :alt="title" class="img-card"/>
             </div>
         </div>
         <div class="">
-            <div class="container-title">
-                <p class="title">{{ title }}</p>
+            <div class="container-title px-2">
+                <p class="title color-purple-light font-bold">{{ title }}</p>
             </div>
-            <p>${{price}}</p>
+            <p class="color-purple-strong">${{price}}</p>
             <p class="text-sm">Category: {{category}}</p>
-            <p>Stock: {{rating.count}}</p>
-            <p>Rate: {{rating.rate}}</p>
+            <p class="text-sm">Stock: {{rating.count}}</p>
+            <p class="text-sm">Rate: {{rating.rate}}<i class="fa-solid fa-star color-yellow"></i></p>
         </div>
     </div>
 </template>

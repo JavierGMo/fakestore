@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --white-light: #FCFDF2;
+    --peach: #FFE9B1;
+    --purple-light: #7743DB;
+    --purple-strong: #3B3486;
+}
+
+.bg-white-light {
+    background-color: var(--white-light);
+}
+.color-purple-light{
+    color: var(--purple-light);
+}
+.color-purple-strong{
+    color: var(--purple-strong);
+}
+.color-yellow{
+    color: rgb(250 204 21);;
+}

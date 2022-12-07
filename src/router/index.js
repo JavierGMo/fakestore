@@ -11,6 +11,11 @@ const routes = [
         path: '/products',
         name: 'Products',
         component: Products
+    },
+    {
+        path: '/products/:id',
+        name: 'Products by name',
+        component: Products
     }
 ];
 
