@@ -12,11 +12,11 @@ const routes = [
         name: 'Products',
         component: Products
     },
-    {
-        path: '/products/:id',
-        name: 'Products by name',
-        component: Products
-    }
+    // {
+    //     path: '/products/:id',
+    //     name: 'Products by name',
+    //     component: Products
+    // }
 ];
 
 
