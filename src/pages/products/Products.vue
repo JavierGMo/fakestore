@@ -16,7 +16,7 @@
                 </label>
             </div>
             <div class="flex justify-center my-2">
-                <div v-if="showCategories">
+                <div v-if="showCategories" class="mx-1">
                     <label for="">Select category: 
                         <select
                             name=""
@@ -29,7 +29,7 @@
                         </select>
                     </label>
                 </div>
-                <div>
+                <div class="mx-1">
                     <label for=""> Select type sort: 
                         <select
                             name=""
